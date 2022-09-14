@@ -1,0 +1,31 @@
+Exception - "exceptional event"
+    - problem that arises during execution of the program
+    - disrupts the flow of the program
+    - program terminates abnormally
+
+Exception Handling
+
+try-catch blocks
+
+
+Checked exception
+        - extends from Exception but not RuntimeException
+
+        - handled or declared
+
+finally block
+        - always runs
+        - commonly used for closing connections to databases:
+        things could go wrong, no matter what happens we always want to close the database connection.
+
+throws - keyword used to declare Throwable (Exception)
+        - goes after the method signature before the {
+
+throw - keyword used to throw a new Exception
+
+
+Error - cannot get recovered by handling techniques
+        - cause termination of the program abnormally
+        - mostly occur at runtime
+
+e.g. Out of memory error or a System crash error. Thrown to indicate the JVM is broken or out of resources.
